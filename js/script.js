@@ -6,6 +6,12 @@ let age = prompt('Inserisci la tua età');
 let prezzo_biglietto = 0.21 * kilometri;
 //Sconto
 let sconto = 0;
-//Prezzo finale
-let prezzo_finale = 0;
 //if
+if (age < 18){
+    sconto = 20;
+}
+else if (age > 65){
+    sconto = 40;
+}
+//Prezzo finale
+let prezzo_finale = prezzo_biglietto - (prezzo_biglietto * sconto / 100);
