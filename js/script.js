@@ -15,3 +15,5 @@ else if (age > 65){
 }
 //Prezzo finale
 let prezzo_finale = prezzo_biglietto - (prezzo_biglietto * sconto / 100);
+
+document.getElementById('prezzo_finale').innerHTML = prezzo_finale.toFixed(2) + '&euro;'
