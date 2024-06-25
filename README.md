@@ -28,7 +28,10 @@ Numero minimo di push: 6
 5.>Dichiarare la variabile per il prezzo finale
 5.1>Impostare la variabile con massimo 2 decimali
 
-8.>Chiedo all'utente i dati delle varibili
+6.>Se lo sconto è diverso da 0 
+6.1>Calcolare il prezzo finale del biglietto applicando lo sconto sul prezzo dei km
+
+7.>Chiedo all'utente i dati delle variabili
 
 
 
